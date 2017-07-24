@@ -5,49 +5,9 @@
      box-sizing: border-box;
  }
  
- .grid {
-     margin: 0 auto;
-     max-width: 1200px;
-     width: 100%;
- }
- 
  .cen
  {
      margin:0 auto;   
- }
- 
- 
- .title {
-     text-align: right;
-     font-family: 'Bellefair', serif;
-     color: #635B59;
- }
- 
- .seperator {
-     border: 2px solid #B6ABA9;
-     border-radius: 10%;
- }
- 
- .mainimg {
-     height: 500px;
-     margin: 15px 0;
- }
- 
- .smhead {
-     color: #635B59;
-     font-family: 'Bellefair', serif;
-     margin: 0 8px;
- }
- 
- .card {
-     width: 100%;
-     padding: 0 16px;
- }
- 
- .cardhead {
-     color: #635B59;
-     font-family: 'Bellefair', serif;
-     text-align: center;
  }
  
   a {
