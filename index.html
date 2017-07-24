@@ -5,57 +5,69 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Framework Test Page</title>
-    <link rel="stylesheet" href="css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Bellefair" rel="stylesheet">
-
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
 </head>
 
 <body>
-    <section class="grid">
+    <div class="container">
         <header class="row">
-            <div class="col-1"><img src="images/udacity-logo.jpg" alt="Udacity Logo"></div>
-            <div class="col-11 title">
-                <h1>MOHIT SHARMA</h1>
-                <h3>FRONT-END NINJA</h3>
+            <div class="col-md-6">
+                <img width="100" height="100" src="images/udacity-logo.jpg" class="img-responsive img-circle title-logo " alt="Udacity Logo">
+            </div>
+            <div class="class="col-md-6 text-right text-uppercase"">
+            <h1 class="title-super text-black">MOHIT SHARMA</h1>
+            <h3>FRONT-END NINJA</h3>
             </div>
         </header>
         <div class="row">
-            <hr class="col-12 seperator">
+            <div class="col-md-12"><hr></div>
         </div>
         <section class="row">
-            <div class="col-12">
-                <img src="images/mainimage.jpg" alt="image with written html code" class="col-12 mainimg">
+            <div class="col-md-12">
+                <img src="images/mainimage.jpg" alt="image with written html code" class="img-responsive">
             </div>
         </section>
         <section class="row">
-            <div class="col-12 smhead">
-                <h1>Featured Work</h1>
+            <div class="col-md-12 smhead">
+                <h2 class="title-featured">Featured Work</h1>
             </div>
         </section>
         <section class="row">
 
-            <div class="col-4">
-                <a href="#"><img class="card" src="images/card.jpg">
+            <div class="col-md-6">
+                <p>
+                    <a href="#"><img class="img-responsive" alt="img 555x300" src="images/card.jpg">
                     <h2 class="cardhead">APPIFY</h2>
-                </a>
+                    </a>
+                </p>
             </div>
 
 
-            <div class="col-4">
-                <a href="#"><img class="card" src="images/card.jpg">
-                    <h2 class="cardhead">SUNFLOWER</h2>
-                </a>
+            <div class="col-md-6">
+                <p>
+                    <a href="#">
+                        <img class="img-responsive" alt="img 555x300" src="images/card.jpg">
+                        <h2 class="cardhead">SUNFLOWER</h2>
+                    </a>
+                </p>
             </div>
 
 
-            <div class="col-4">
-                <a href="#"><img class="card" src="images/card.jpg">
-                    <h2 class="cardhead">BOKEH</h2>
-                </a>
+            <div class="col-md-6">
+                <p>
+                    <a href="#">
+                        <img class="card" src="images/card.jpg">
+                        <h2 class="cardhead">BOKEH</h2>
+                    </a>
+                </p>
             </div>
 
         </section>
-    </section>
+    </div>
 </body>
 
 </html>
