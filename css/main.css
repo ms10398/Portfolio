@@ -11,10 +11,9 @@
     width: 100%;
 }
 
-.row {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
+.cen
+{
+    margin:0 auto;   
 }
 
 .col-1 {
